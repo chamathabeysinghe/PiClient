@@ -1,3 +1,4 @@
 import CameraSensor
+camera = CameraSensor.CameraInput()
 
-print CameraSensor.takePicture()
+print camera.queryForInput()
