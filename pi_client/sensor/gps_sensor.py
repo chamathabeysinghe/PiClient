@@ -1,6 +1,6 @@
 class GpsSensor:
 
-    currentSpeed = 0
+    currentSpeed = 70
 
     def __init__(self):
         pass
