@@ -33,7 +33,7 @@ class SpeedLimitRule(threading.Thread):
         self.currentSpeedLimit = newSpeedLimit
 
     def current_timestamp(self):
-        return 20171213
+        return time.time()
 
     def get_report(self):
         report = {'highSpeedDurations': self.highSpeedDurations}
